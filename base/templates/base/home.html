@@ -1,0 +1,105 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rustem Nygmet</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/rustem.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Rustem!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Web Developer(Frontend, Backend)/Layout designer</h4>
+					<hr>
+					<p>I am studying at SDU</p>
+					<p>Specializations:
+						Programmer, developer
+						Employment: project work, internship, part-time, full-time
+						
+						Work schedule: remote work, flexible schedule, full-time, shift schedule</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Preferred communication method</h5>
+					<hr>
+					<p>Number: +7 (702) 294-76-25</p>
+					<p>Mail: <a href="https://mail.google.com/mail/"> 200103424@stu.sdu.edu.kz</a> </p>
+					<p>City of residence: Nur-Sultan. ready to move to Almaty.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript/Jquery, Postgres, Sqlite3, PL/SQL, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Django, Postgress and Sqlite3</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>Kazakh — Native</p>
+				<p>English — B2 — Intermediate-Advanced</p>
+				<p>Russian — C1 — Advanced</p>
+				<p>Turkish — A2 — Elementary</p>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card card-body h-100">
+				<h5>Here I made a simple chat.</h5>
+				<h5>You can send text in room.</h5>
+				<h3><a href="http://sdudormchat.pythonanywhere.com/"> Go to chat </a></h3>
+
+			</div>
+		</div>
+		<br>
+	</div>
+
+	
+
+</body>
+</html>
